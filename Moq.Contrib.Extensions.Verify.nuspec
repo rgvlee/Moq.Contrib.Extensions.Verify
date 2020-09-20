@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>Moq.Contrib.Extensions.Verify</id>
+    <version>1.0.0</version>
+    <authors>rgvlee</authors>
+    <owners>rgvlee</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="file">LICENSE</license>
+    <projectUrl>https://github.com/rgvlee/Moq.Contrib.Extensions.Verify</projectUrl>
+    <description>Simple extensions for invoking Verify on a mocked object.</description>
+    <copyright>Copyright (c) 2020 Lee Anderson</copyright>
+    <tags>Moq contrib extensions verify</tags>
+    <repository url="https://github.com/rgvlee/Moq.Contrib.Extensions.Verify" />
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Moq" version="4.9.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="src\Moq.Contrib.Extensions.Verify\bin\Release\netstandard2.0\Moq.Contrib.Extensions.Verify.dll" target="lib\netstandard2.0" />
+    <file src="LICENSE" />
+  </files>
+</package>
